@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Checkfast</title>
+  <link rel="stylesheet" href="popup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+  <div class="container">
+    <h1>CHECKFAST</h1>
+
+    <input class="input-field" 
+       type="text" 
+       id="username" 
+       placeholder="Enter username" 
+       autocomplete="off" 
+       autocorrect="off" 
+       autocapitalize="off" 
+       spellcheck="false" />
+
+    <div class="button-group">
+      <button class="button replace" id="replaceBtn">Clear</button>
+      <button class="button save" id="saveBtn">Save</button>
+    </div>
+
+    <div class="checkbox-container">
+  <strong>Select the template:</strong>
+  
+  <label class="checkbox-item">
+    <input type="checkbox" id="model1"> <span>Standard</span>
+  </label>
+  
+  <label class="checkbox-item">
+    <input type="checkbox" id="model2"> <span>FOOTER</span>
+  </label>
+  
+  <label class="checkbox-item">
+    <input type="checkbox" id="model3"> <span>GNB</span>
+  </label>
+  
+  <label class="checkbox-item">
+    <input type="checkbox" id="model4"> <span>HOME</span>
+  </label>
+  
+  <label class="checkbox-item">
+    <input type="checkbox" id="model5"> <span>OFFER</span>
+  </label>
+  
+  <label class="checkbox-item">
+    <input type="checkbox" id="model6"> <span>PCD</span>
+  </label>
+  
+  <label class="checkbox-item">
+    <input type="checkbox" id="model7"> <span>PDP</span>
+  </label>
+  
+  <label class="checkbox-item">
+    <input type="checkbox" id="model8"> <span>PF</span>
+  </label>
+  
+  <label class="checkbox-item">
+    <input type="checkbox" id="model9"> <span>PFShomeapliences</span>
+  </label>
+  
+  <label class="checkbox-item">
+    <input type="checkbox" id="model10"> <span>PFSmobile</span>
+  </label>
+  
+  <label class="checkbox-item">
+    <input type="checkbox" id="model11"> <span>Redirect</span>
+  </label>
+</div>
+
+    <button class="button" id="generateBtn">Create checklist</button>
+    <button class="button" id="downloadBtn" style="display:none;">Download</button>
+  </div>
+
+  <p id="'disclaimer">* checklist version: QA_Checklist_20250903_v4.0.3</p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
